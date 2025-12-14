@@ -100,6 +100,10 @@ These ommands are used for reading/writing to a specific track  and sector on th
 * `sss` = sector number (1-10)
 * `aaa` = the address of the memory location for the sector RAM configuration is pages 5,2,0
 
+`READ #u`
+
+Change the +3 user area (u = 0..15).
+
 ## Supported Hook Codes
 
 In this version Command Codes are emulated to a certain extent, however any existing disc conversions probably won't work. Unfortunately due to the actual design of ROM3 an exact emulation  would be impossible. But it is easy to adapt programs to workusing DISCDOS - and +D programmers can do this too - it won't affect the operation of a +D/DISCiPLE.   
