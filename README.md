@@ -9,7 +9,7 @@ The files here have only been lightly modified:
 
 * Extracted from disc
 * Converted from OCP format to text
-* Reformated with z88dk-asmstyle
+* Reformatted with z88dk-asmstyle
 * Pseudo directives updated
 
 
