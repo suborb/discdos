@@ -9,7 +9,8 @@ The files here have only been lightly modified:
 
 * Extracted from disc
 * Converted from OCP format to text
-* Pseudo directives corrected
+* Reformated with z88dk-asmstyle
+* Pseudo directives updated
 
 
 ## BASIC Extension commands
