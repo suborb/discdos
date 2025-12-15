@@ -9,7 +9,7 @@ The files here have only been lightly modified:
 
 * Extracted from disc
 * Converted from OCP format to text
-* Reformated with z88dk-asmstyle
+* Reformatted with z88dk-asmstyle
 * Pseudo directives updated
 
 
@@ -99,6 +99,10 @@ These ommands are used for reading/writing to a specific track  and sector on th
 * `ttt` = track number - side 1 (tracks 0 - 79), side 2 (128-207)
 * `sss` = sector number (1-10)
 * `aaa` = the address of the memory location for the sector RAM configuration is pages 5,2,0
+
+`READ #u`
+
+Change the +3 user area (u = 0..15).
 
 ## Supported Hook Codes
 
